@@ -1,0 +1,60 @@
+div#wrap {
+width : 800px;
+border : 1px solid black;
+left : 0px;
+margin : 0 auto;
+	
+}
+
+#formArea textarea {
+height: 100px;
+width: 600px;
+margin: 0 auto;
+border: 1px groove black;
+}
+
+body{
+	1background-color : #408DD2;
+}
+
+
+
+div#formArea input[type=text] {
+	text-align : center;
+	positoin : top;
+	
+	}
+
+
+#formArea > form input[type=text] {
+	border-radius : 10px;
+	position : relative;
+	margin : 10px;
+	left : 25px;
+	
+}
+
+.buttenoutline {
+	position : relative;
+	left : 70%;
+	top : -33px;	
+	width : 110px;
+	
+}
+
+#formArea input[type=submit], input[type=reset] {
+	margin-top : 10px;
+	padding : 15px;
+}
+
+#formArea input[type=text]
+{
+	padding-top : 1px;
+}
+
+#formArea input[type=submit]
+{
+	position: relative;
+	float: right;
+}
+

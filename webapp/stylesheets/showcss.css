@@ -1,0 +1,23 @@
+@CHARSET "EUC-KR";
+
+div#title
+{
+	font-size : 15px;
+	font-color : red;
+}
+
+.showlist
+{
+	float : right;
+}
+.commentlist
+{
+	display : block;
+	
+}
+
+.commentWrite > form textarea
+{
+	width : 50%;
+	height :30px;
+}

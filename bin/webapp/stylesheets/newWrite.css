@@ -1,0 +1,53 @@
+/* System Name, CSS Version_Creater_Date */
+/* Common */ 
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textare a,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'돋움',Dotum,AppleGothic,sans- serif;font-size:1em}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal} a{text-decoration:none} a:hover,a:active,a:focus{text-decoration:underline}
+
+div#wrap {
+width : 800px;
+border : 1px solid red;
+}
+
+#formArea textarea {
+	width : 600px;
+	margin : 20px 0px;
+}
+
+h1#post {
+	font-family : Raleway,Helvetica Neus,Helvetica,Arial,sans-serif;
+	font-size : 3em;
+	font-weight : 100; /*default value : 400 */
+	letter-spacing : 0.1em;
+	text-align : center;
+	margin-top : 50px;	
+}
+
+div#formArea {
+	padding-left : 100px;
+	padding-top : 100px;
+}
+
+#formArea input[type=submit], input[type=reset] {
+	margin-top : 10px;
+	padding : 5px;
+}
+
+#formArea input[type=text]
+{
+	padding-top : 1px;
+}
+
+#formArea input[type=submit]
+{
+	border-radius: 12px;
+	border-color : gray;
+	font-size : 10px;
+	font-color : red; 
+	width : 60px;
+	background-color : gray;
+	
+}
+

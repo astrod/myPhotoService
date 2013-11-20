@@ -1,0 +1,100 @@
+@CHARSET "EUC-KR";
+
+body { 
+    position:relative;
+    height :100%;
+    background-color : rgb(81, 127, 164);   
+}
+
+header.topBar {
+    position: relative;
+    background-color: rgb(81, 127, 164);
+    width : 70%;
+    height : 80px;
+    margin : 0 auto;
+}
+
+h1 {
+    font-family: 'Sonsie One', cursive;
+    font-weight: 400;
+    font-style:italic;
+    font-size: 6em;
+    position: relative;
+    text-align:center;
+    color : black;
+    top : -70px;
+}
+
+div.mainPage {
+    position: relative; 
+    width: 960px;
+    height: 800px;
+    margin : 0 auto;
+    background-color: white;
+}
+
+div.mainPage > img {
+    width : 300px;
+    height : 450px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.textBox {
+ 
+    border: 1px dotted #FF7C00;
+    float : right;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    background-color: white;
+    padding-top : 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right : 50px;
+}
+.textBox > :nth-child(1)
+{
+    position: static;
+    font-size : 30px;
+    color : #04859D;
+    
+}
+.textBox > :nth-child(4)
+{
+    position: static;
+    font-size : 20px;
+}
+.textBox > :nth-child(5)
+{
+    position: static;
+    font-size : 20px;   
+}
+
+.textBox > :nth-child(5) > span {
+ 
+    font-size : 12px;
+}
+
+.login{
+    display: block;
+    position: absolute;
+    left : 33%;
+    margin-right : 100px;
+    bottom : 60px;
+    width : 200px;
+}
+span:first-child {
+    font-family: 'Sonsie One', cursive;     
+    font-style: italic; 
+    font-weight: 500;
+    font-size : 2em;
+}
+
+.join {
+    display: block;
+    position: absolute;
+    left : 52%;
+    bottom : 60px;
+    width : 200px;
+}

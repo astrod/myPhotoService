@@ -8,7 +8,7 @@
 	</appender>
 	
 	<!-- SLIPP Logger -->
-	<logger name="org.nhnnext" level="DEBUG" />
+	<logger name="org.nhnnext" level="INFO" />
 
 	<!-- Library / Framework Logger -->
 	<logger name="org.hibernate" level="WARN" />

@@ -1,0 +1,73 @@
+@CHARSET "EUC-KR";
+
+div#wrap {
+width : 800px;
+border : 1px solid black;
+left : 0px;
+margin : 0 auto;
+	
+}
+
+#formArea textarea {
+height: 100px;
+width: 600px;
+margin: 0 auto;
+border: 1px groove black;
+}
+
+body{
+	1background-color : #408DD2;
+}
+
+div#formArea {
+	padding-left : 100px;
+	padding-top : 100px;
+}
+
+div#formArea input[type=text] {
+	text-align : center;
+	positoin : top;
+	
+	}
+#formArea {
+	position : relative;
+	top : -80px;
+	
+}
+
+#formArea > form input[type=text] {
+	border-radius : 10px;
+	position : relative;
+	margin : 10px;
+	left : 25px;
+	
+}
+
+.buttenoutline {
+	position : relative;
+	left : 67%;
+	top : -33px;	
+	width : 140px;
+	
+}
+
+#formArea input[type=submit], input[type=reset] {
+	margin-top : 10px;
+	padding : 15px;
+}
+
+#formArea input[type=text]
+{
+	padding-top : 1px;
+}
+
+#formArea input[type=submit]
+{
+	position: relative;
+	float: right;
+}
+
+#wrap > h2 {
+	text-align:center;
+	
+}
